@@ -6,17 +6,17 @@ Gem::Specification.new do |spec|
   spec.name = "diff_solver"
   spec.version = DiffSolver::VERSION
   spec.authors = ["HHi-code"]
-  spec.email = ["vo111dddd@gmail.com"]
+  spec.email = ["Ploxish-kryt-kryt@yandex.ru"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.summary = "Solving differential equations"
+  spec.description = "Gem for solving ODE"
+  spec.homepage = "https://github.com/HHi-code/Ruby-Lab4"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.2.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
+  #spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
+  spec.metadata["source_code_uri"] = spec.homepage
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
