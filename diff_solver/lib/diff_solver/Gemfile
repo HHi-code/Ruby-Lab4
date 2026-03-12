@@ -2,7 +2,8 @@
 
 source "https://rubygems.org"
 
-gem "dentaku", "~> 3.4"
+gem "dentaku", "~> 3.5.7"
 gem "minitest", "~> 5.0"
 gem "tsort", "~> 0.1"
+gem "rake" > Gemfile
 # gem "rails"

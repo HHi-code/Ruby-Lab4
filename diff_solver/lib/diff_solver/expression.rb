@@ -1,5 +1,4 @@
-require "bundler/setup"
-Bundler.require(:default)
+require "dentaku"
 
 module DiffSolver
     class Error < StandardError; end
