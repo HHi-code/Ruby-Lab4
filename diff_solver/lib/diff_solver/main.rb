@@ -1,6 +1,6 @@
 require_relative 'expression'
 
 
-expr = DiffSolver::Expression.new("x+2")
+expr = DiffSolver::Expression.new("2x")
 der = expr.derivative(:x)
 puts der.string
